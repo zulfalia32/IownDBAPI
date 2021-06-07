@@ -1,0 +1,16 @@
+{"message":"Server started running on : 3000","level":"info"}
+{"message":"::1 - - [06/Jun/2021:12:19:06 +0000] \"POST /api/read-data HTTP/1.1\" 200 309 \"-\" \"PostmanRuntime/7.28.0\"\n","level":"info"}
+{"message":"::1 - - [06/Jun/2021:12:19:12 +0000] \"POST /api/delete-data HTTP/1.1\" 200 138 \"-\" \"PostmanRuntime/7.28.0\"\n","level":"info"}
+{"message":"::1 - - [06/Jun/2021:12:19:22 +0000] \"POST /api/delete-data HTTP/1.1\" 200 138 \"-\" \"PostmanRuntime/7.28.0\"\n","level":"info"}
+{"message":"::1 - - [06/Jun/2021:12:19:30 +0000] \"POST /api/update-data HTTP/1.1\" 200 138 \"-\" \"PostmanRuntime/7.28.0\"\n","level":"info"}
+{"message":"::1 - - [06/Jun/2021:12:19:37 +0000] \"POST /api/create-data HTTP/1.1\" 200 138 \"-\" \"PostmanRuntime/7.28.0\"\n","level":"info"}
+{"message":"Model not found for the given Entity","level":"error"}
+{"message":"::1 - - [06/Jun/2021:12:19:48 +0000] \"POST /api/create-data HTTP/1.1\" 200 103 \"-\" \"PostmanRuntime/7.28.0\"\n","level":"info"}
+{"message":"Model not found for the given Entity","level":"error"}
+{"message":"::1 - - [06/Jun/2021:12:19:59 +0000] \"POST /api/update-data HTTP/1.1\" 200 103 \"-\" \"PostmanRuntime/7.28.0\"\n","level":"info"}
+{"message":"Model not found for the given Entity","level":"error"}
+{"message":"::1 - - [06/Jun/2021:12:20:07 +0000] \"POST /api/delete-data HTTP/1.1\" 200 103 \"-\" \"PostmanRuntime/7.28.0\"\n","level":"info"}
+{"message":"Model not found for the given Entity","level":"error"}
+{"message":"::1 - - [06/Jun/2021:12:20:15 +0000] \"POST /api/read-data HTTP/1.1\" 200 103 \"-\" \"PostmanRuntime/7.28.0\"\n","level":"info"}
+{"message":"::1 - - [06/Jun/2021:13:11:40 +0000] \"GET /api/test HTTP/1.1\" 200 62 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36\"\n","level":"info"}
+{"message":"::1 - - [06/Jun/2021:13:11:41 +0000] \"GET /favicon.ico HTTP/1.1\" 404 150 \"http://localhost:3000/api/test\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36\"\n","level":"info"}

@@ -1,0 +1,40 @@
+"use strict";
+module.exports = function (sequelize, Sequelize) {
+    var Property = sequelize.define('Property', {
+        PropertyID: { type: Sequelize.INTEGER, autoIncrement: true, primaryKey: true, notEmpty: true },
+        PropertyName: { type: Sequelize.STRING, notEmpty: false },
+        PropertyType: { type: Sequelize.STRING, notEmpty: false },
+        Location: { type: Sequelize.STRING, notEmpty: false },
+        PropertySizeSqFt: { type: Sequelize.STRING, notEmpty: false },
+        ShortPropertyDescription: { type: Sequelize.STRING, notEmpty: false },
+        AboutProperty: { type: Sequelize.STRING, notEmpty: false },
+        PropertyVideoURL: { type: Sequelize.STRING, notEmpty: false },
+        InestmentReason: { type: Sequelize.STRING, notEmpty: false },
+        MinimumInvestmentAmount: { type: Sequelize.STRING, notEmpty: false },
+        FundingTarget: { type: Sequelize.STRING, notEmpty: false },
+        ExpectedGrossYield: { type: Sequelize.STRING, notEmpty: false },
+        ExpectedNetYield: { type: Sequelize.STRING, notEmpty: false },
+        ROI5Years: { type: Sequelize.STRING, notEmpty: false },
+        ExpectedDividendYield: { type: Sequelize.STRING, notEmpty: false },
+        CampaignStartDate: { type: Sequelize.DATE, notEmpty: false },
+        CampaignEndDate: { type: Sequelize.DATE, notEmpty: false },
+        ProfitDistribution: { type: Sequelize.STRING, notEmpty: false },
+        PropertyImage: { type: Sequelize.STRING, notEmpty: false },
+        ApartmentGallery: { type: Sequelize.STRING, notEmpty: false },
+        InformationMemoAttachment: { type: Sequelize.STRING, notEmpty: false },
+        ValuationReportAttachment: { type: Sequelize.STRING, notEmpty: false },
+        FinancialDocumentsAttachment: { type: Sequelize.STRING, notEmpty: false },
+        CMAReportAttachment: { type: Sequelize.STRING, notEmpty: false },
+        AssetID: { type: Sequelize.INTEGER, notEmpty: false },
+        TenantID: { type: Sequelize.STRING, notEmpty: false },
+        RequestID: { type: Sequelize.STRING, notEmpty: false },
+        TotalInvestment: { type: Sequelize.FLOAT, notEmpty: false },
+        CampaignProgress: { type: Sequelize.FLOAT, notEmpty: false },
+        TotalInvestorInvestment: { type: Sequelize.DECIMAL, notEmpty: false },
+        TotalInvestors: { type: Sequelize.STRING, notEmpty: false },
+        MaximumInvestmentAmount: { type: Sequelize.STRING, notEmpty: false },
+        MapOnLocation: { type: Sequelize.STRING, notEmpty: false },
+    });
+    return Property;
+};
+//# sourceMappingURL=Property.js.map
