@@ -1,0 +1,4 @@
+{
+    "appService.deploySubpath": ".",
+    "appService.defaultWebAppToDeploy": "/subscriptions/d6703d63-d53a-42c4-b5b6-b207a4e21510/resourceGroups/AppServiceQS-rg/providers/Microsoft.Web/sites/IownDBAPI"
+}

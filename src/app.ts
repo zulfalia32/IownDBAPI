@@ -27,7 +27,7 @@ app.use(morgan('combined', { stream: logger.stream }));
 app.use(router)
 //
 
-const port = 3000;
+const port = process.env.PORT || 3000;
 Database.connectDatabase();
 
 models.sequelize.sync().then(() => {
@@ -41,14 +41,12 @@ models.sequelize.sync().then(() => {
             logger.info('Server started running on : ' + port);
           }
         })
-
-    app.get('/api/test',function(req,res)
-        {
-            res.send('Hello World!, This application is up and running at port: ' + port);
-        });
    });
 
-
+   app.get('/api/test',function(req,res)
+   {
+       res.send('Hello World!, This application is up and running at port: ' + port);
+   });
 
   
  

@@ -30,8 +30,8 @@ models.sequelize.sync().then(function () {
             logger.info('Server started running on : ' + port);
         }
     });
-    app.get('/api/test', function (req, res) {
-        res.send('Hello World!, This application is up and running at port: ' + port);
-    });
+});
+app.get('/api/test', function (req, res) {
+    res.send('Hello World!, This application is up and running at port: ' + port);
 });
 //# sourceMappingURL=app.js.map
